@@ -1,0 +1,27 @@
+title: Viki Patel's Portfolio
+email: your-email@example.com
+description: >-
+  Welcome to my professional portfolio. Here you can find my projects, articles, and more.
+url: "https://vikipatel1293.github.io"
+baseurl: ""
+
+# Social media settings
+twitter: your-twitter-handle
+github: vikipatel1293
+linkedin: your-linkedin-username
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
+  - blog.md
