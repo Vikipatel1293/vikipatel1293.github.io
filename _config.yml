@@ -16,10 +16,10 @@ paginate_path: "/page:num/"
 
 # Navigation
 header_pages:
-  - /articles/
-  - /blogs/
-  - /projects/
-  - /resume/
+  - _pages/articles.md
+  - _pages/blogs.md
+  - _pages/projects.md
+  - _pages/resume.md
 
 # Collections
 collections:
