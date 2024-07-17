@@ -1,10 +1,6 @@
 source "https://rubygems.org"
 
-# Manage Jekyll version
 gem "jekyll", "~> 3.9.2"
-
-# Default theme for new Jekyll sites
-gem "minima", "~> 2.5"
 
 # If you want to use GitHub Pages
 gem "github-pages", "~> 227", group: :jekyll_plugins
