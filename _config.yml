@@ -1,0 +1,6 @@
+title: Viki's Portfolio
+email: vickypatel1293@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A personal website for showcasing articles, blogs, projects, and resume.
+baseurl: ""
+url: "https://vikipatel1293.github.io"
