@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello! My name is Viki Patel. I am currently studying Artificial Intelligence and am passionate about building innovative projects in AI. My enthusiasm for AI drives me to continuously learn and explore new advancements in the field.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I specialize in developing projects based on Large Language Models (LLMs), deep learning, and machine learning. Sharing knowledge is important to me, and I enjoy writing articles and blogs to disseminate what I've learned.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Stay tuned to this portfolio for updates on my latest projects and insights into the world of AI.
