@@ -4,3 +4,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   A personal website for showcasing articles, blogs, projects, and resume.
 baseurl: ""
 url: "https://vikipatel1293.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
