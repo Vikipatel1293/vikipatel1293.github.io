@@ -1,9 +1,48 @@
-title: Viki's Portfolio
-email: vickypatel1293@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  A personal website for showcasing articles, blogs, projects, and resume.
+title: "Viki's Portfolio"
+email: "your-email@example.com"
+description: "A personal website for showcasing articles, blogs, projects, and resume."
 baseurl: ""
-url: "https://vikipatel1293.github.io"
-theme: minima
+url: "https://<username>.github.io"
+theme: "minimal-mistakes-jekyll"
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+# Site settings
+paginate: 5
+paginate_path: "/page:num/"
+
+# Navigation
+header_pages:
+  - _articles
+  - _blogs
+  - _projects
+  - _resume
+
+# Social media links (optional)
+social:
+  github: https://github.com/<username>
+  linkedin: https://www.linkedin.com/in/<username>
+  twitter: https://twitter.com/<username>
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"
+
+# Theme settings
+minimal_mistakes_skin: "air"
+# Include custom CSS
+sass:
+  load_paths:
+    - _sass
