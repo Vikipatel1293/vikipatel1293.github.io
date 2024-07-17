@@ -7,40 +7,40 @@ Welcome to my website!
 
 ## Articles
 <ul>
-  {% for post in site.articles %}
+  {% for article in site.articles %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date_to_string }}</span>
+      <a href="{{ article.url }}">{{ article.title }}</a>
+      <span>{{ article.date | date_to_string }}</span>
     </li>
   {% endfor %}
 </ul>
 
 ## Blogs
 <ul>
-  {% for post in site.blogs %}
+  {% for blog in site.blogs %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date_to_string }}</span>
+      <a href="{{ blog.url }}">{{ blog.title }}</a>
+      <span>{{ blog.date | date_to_string }}</span>
     </li>
   {% endfor %}
 </ul>
 
 ## Projects
 <ul>
-  {% for post in site.projects %}
+  {% for project in site.projects %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date_to_string }}</span>
+      <a href="{{ project.url }}">{{ project.title }}</a>
+      <span>{{ project.date | date_to_string }}</span>
     </li>
   {% endfor %}
 </ul>
 
 ## Resume
 <ul>
-  {% for post in site.resume %}
+  {% for resume in site.resume %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.date | date_to_string }}</span>
+      <a href="{{ resume.url }}">{{ resume.title }}</a>
+      <span>{{ resume.date | date_to_string }}</span>
     </li>
   {% endfor %}
 </ul>

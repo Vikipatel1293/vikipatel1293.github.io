@@ -16,10 +16,25 @@ paginate_path: "/page:num/"
 
 # Navigation
 header_pages:
-  - _articles
-  - _blogs
-  - _projects
-  - _resume
+  - /articles/
+  - /blogs/
+  - /projects/
+  - /resume/
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /articles/:title/
+  blogs:
+    output: true
+    permalink: /blogs/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
+  resume:
+    output: true
+    permalink: /resume/:title/
 
 # Social media links (optional)
 social:
@@ -42,7 +57,3 @@ defaults:
 
 # Theme settings
 minimal_mistakes_skin: "air"
-# Include custom CSS
-sass:
-  load_paths:
-    - _sass
