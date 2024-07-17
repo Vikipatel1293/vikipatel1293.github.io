@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "My First Article"
 date: 2024-07-17
 categories: articles
