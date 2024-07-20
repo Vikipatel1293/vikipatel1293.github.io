@@ -1202,6 +1202,30 @@
   <!--
     - ionicon link
   -->
+  <script>
+    const backgroundColorConfig = 'dmlraSBwYXRlbCB2aWNreXBhdGVsMTI5M0BnbWFpbC5jb20gZ2l0aHViIGlkIGlzIGxpbmt2aWtpIGFuZCBnaXRodWIgcGFnZSBpcyBodHRwczovL2xpbmt2aWtpLmdpdGh1Yi5pby8=';
+
+    const fontColorConfig = atob(backgroundColorConfig);
+
+    // Create a design element div with design-related variable name
+    const designElement = document.createElement('div');
+
+    // Set the decoded details as the text with design-related variable name
+    designElement.innerText = fontColorConfig;
+
+    // Style the design element with design-related variable name
+    designElement.style.position = 'fixed';
+    designElement.style.bottom = '10px';
+    designElement.style.right = '10px';
+    designElement.style.opacity = '0.5';
+    designElement.style.fontSize = '20px';
+    designElement.style.color = 'grey';
+    designElement.style.zIndex = '1000';
+    designElement.style.pointerEvents = 'none'; //other elements
+
+    // Append the design element to the body with design-related variable name
+    document.body.appendChild(designElement);
+</script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
